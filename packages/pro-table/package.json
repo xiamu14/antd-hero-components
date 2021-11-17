@@ -1,0 +1,29 @@
+{
+  "name": "@hearthstone/antd-pro-table",
+  "version": "0.1.0-alpha",
+  "description": "专业定制的表格组件（基于 antd 和 formily）",
+  "author": "hearthstone",
+  "license": "MIT",
+  "repository": "xiamu14/antd-t1",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {},
+  "files": [
+    "dist"
+  ],
+  "gitHead": "4e9403b8d2662658eada40e03c181ba41afbaea8"
+}
