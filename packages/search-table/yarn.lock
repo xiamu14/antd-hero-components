@@ -748,13 +748,15 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.4.tgz#a87b4b04e5ae14a88d48ebef15015f6b7d1f5677"
   integrity sha512-kBa+cDHOR9jpRJ+kcGMsysrls0leukrm68DmFQoMIWQcXdr2cZvyvypWuGYT7U+9kAExUE7+T7r6G3C3A6L8MQ==
 
-"@redchili/search-bar@1.0.0-beta.2":
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@redchili/search-bar/-/search-bar-1.0.0-beta.2.tgz#1b5e4fa9e2562d1cc51a1528ce924bfb9c9d7f06"
-  integrity sha512-2PUo+HDAOM1c2HTAnczxqzUR9WK60guX94uQyu1/lbH7r4Dj65sz5XO2V9Rq2YTBQWZzhRbjjRQ6F6E+KnobDg==
+"@redchili/search-bar@^1.0.7-alpha.0":
+  version "1.0.7-alpha.0"
+  resolved "https://registry.yarnpkg.com/@redchili/search-bar/-/search-bar-1.0.7-alpha.0.tgz#d1de0f1df7b2f264434bd1935ed7b1b28cd2e12a"
+  integrity sha512-/+qoUJPt6ozR/1rozSCn73VsEbqMhUxU/KUK5rTAZIiJg7nPEJb/eqQuafm3lJeOjJnpTvEzShG8gH7wKiRZDg==
   dependencies:
+    "@types/classnames" "^2.2.10"
     "@uform/antd" "^0.4.3"
     antd "^3.24.3"
+    classnames "^2.2.6"
 
 "@svgr/core@^2.4.1":
   version "2.4.1"
@@ -780,6 +782,13 @@
     "@babel/preset-react" "^7.0.0"
     "@svgr/core" "^2.4.1"
     rollup-pluginutils "^2.3.1"
+
+"@types/classnames@^2.2.10":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.3.1.tgz#3c2467aa0f1a93f1f021e3b9bcf938bd5dfdc0dd"
+  integrity sha512-zeOWb0JGBoVmlQoznvqXbE0tEC/HONsnoUNH19Hc96NFsTAwTXbTqb8FMYkru1F/iqp7a18Ws3nWJvtA1sHD1A==
+  dependencies:
+    classnames "*"
 
 "@types/estree@0.0.39":
   version "0.0.39"
@@ -2649,6 +2658,11 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+classnames@*:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
+  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
 
 classnames@2.x, classnames@^2.2.0, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, classnames@~2.2.6:
   version "2.2.6"
@@ -8813,6 +8827,11 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-available-hooks@^1.0.1-beta.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-available-hooks/-/react-available-hooks-1.0.1.tgz#e2c12bd08740489ba9258ac8f329e970a3aa9584"
+  integrity sha512-bkX1xYRoIJ3eq2Ntl1o7U4CrpTsDAiFUzrPz5506yZ48XiQTO2kPHVJpjGDOm3KQdDq1u/4Fq/19oVBd1gheRw==
+
 react-dev-utils@^5.0.1:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-5.0.3.tgz#92f97668f03deb09d7fa11ea288832a8c756e35e"
@@ -10740,10 +10759,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.6.4:
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.4.tgz#b18752bb3792bc1a0281335f7f6ebf1bbfc5b91d"
-  integrity sha512-unoCll1+l+YK4i4F8f22TaNVPRHcD9PA3yCuZ8g5e0qGqlVlJ/8FSateOLLSagn+Yg5+ZwuPkL8LFUc0Jcvksg==
+typescript@^3.9.5:
+  version "3.9.10"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.10.tgz#70f3910ac7a51ed6bef79da7800690b19bf778b8"
+  integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
 
 ua-parser-js@^0.7.18:
   version "0.7.20"
@@ -10945,9 +10964,9 @@ uri-js@^4.2.2:
     punycode "^2.1.0"
 
 urijs@^1.16.1:
-  version "1.19.2"
-  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.2.tgz#f9be09f00c4c5134b7cb3cf475c1dd394526265a"
-  integrity sha512-s/UIq9ap4JPZ7H1EB5ULo/aOUbWqfDi7FKzMC2Nz+0Si8GiT1rIEaprt8hy3Vy2Ex2aJPpOQv4P4DuOZ+K1c6w==
+  version "1.19.8"
+  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.8.tgz#ee0407a18528934d3c383e691912f47043a58feb"
+  integrity sha512-iIXHrjomQ0ZCuDRy44wRbyTZVnfVNLVo3Ksz1yxNyE5wV1IDZW2S5Jszy45DTlw/UdsnRT7DyDhIz7Gy+vJumw==
 
 urix@^0.1.0:
   version "0.1.0"
